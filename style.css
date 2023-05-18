@@ -1,0 +1,271 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #202124;
+    font-family: arial;
+}
+
+.header {
+    display: flex;
+    width: 100vw;
+    height: 60px;
+    padding: 6px;
+    justify-content: end;
+}
+
+.text_imagem {
+    display: flex;
+    align-items: center;
+    padding-right: 12px;
+}
+
+.texts a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 13.27px;
+    padding-right: 15px;
+    text-align: middle;
+}
+
+.texts a:hover {
+    text-decoration: underline;
+
+}
+
+.texts {
+    display: flex;
+    width: 128.828px;
+    height: 24px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.imagem {
+    display: flex;
+    align-items: center;
+}
+
+.imagem .foto a img {
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100vw;
+    height: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.navi {
+    width: 100vw;
+    height: 160px;
+    padding: 20px;
+}
+
+.menu a img {
+    display: flex;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+}
+
+.menu {
+    padding: 8px;
+    margin-right: 15px;
+}
+
+form {
+    margin-top: 0em;
+    height: 142px;
+}
+
+.barra_of {
+    padding-top: 6px;
+    height: 142px;
+    margin-left: 452.500px;
+    margin-right: 452.500px;
+}
+
+.barra {
+    display: flex;
+    height: 46px;
+    border: 1px solid #FFFFFF;
+    border-radius: 24px;
+    width: 582px;
+}
+
+.barra:hover {
+    background-color: #303134;
+    border: 1px solid #303134;
+}
+
+.barra_oc {
+    flex: 1;
+    display: flex;
+    padding-left: 15px;
+}
+
+.barra_ct {
+    display: flex;
+    justify-content: center;
+}
+
+.lupa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 46px;
+    padding-right: 13px;
+}
+
+.lupa img {
+    width: 18px;
+    height: 18px;
+}
+
+.acess {
+    display: flex;
+    height: 44px;
+    padding-left: 17px;
+}
+
+.barra .lupa img {
+    width: 20px;
+    height: 20px;
+}
+
+.acess .keyboard {
+    display: flex;
+    align-items: center;
+}
+
+.acess .mic img {
+    width: 20px;
+    height: 20px;
+}
+
+.acess .camera img {
+    width: 20px;
+    height: 20px;
+}
+
+.barra input {
+    display: flex;
+    background: none;
+    border: none;
+    width: 403px;
+    height: 27px;
+    outline: 0px;
+    flex: 1;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.barra_oc .text_area {
+    display: flex;
+    align-items: center;
+}
+
+.teclado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mic1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4px;
+    padding-left: 17px;
+}
+
+.filma {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4px;
+    padding-left: 17px;
+}
+
+.down_texts {
+    height: 88px;
+    padding-top: 18px;
+    display: block;
+}
+
+.down_texts .center {
+    display: flex;
+    height: 58px;
+    justify-content: center;
+}
+
+.down_texts .center input {
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+#space {
+    width: 100vw;
+    height: 365px;
+}
+
+.footer {
+    background: #171717;
+    width: 100vw;
+    height: 94px;
+}
+
+.BR {
+    padding: 15px 30px;
+    border-bottom: 1px solid #3c4043;
+    font-size: 15px;
+    color: #9aa0a6;
+}
+
+.footer .fim {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+}
+
+.footer .fim a {
+    text-decoration: none;
+    color: #999da2;
+    padding: 15px;
+    font-size: 14px;
+}
+
+.footer .fim .left {
+    display: flex;
+    height: 46px;
+}
+
+.footer .fim .right {
+    height: 46px;
+    display: flex;
+}
+
+.footer .fim a:hover {
+    text-decoration: underline;
+}
